@@ -4,25 +4,20 @@
   <test thread-count="5" name="chrome Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Mavenprjct.Finanace.LinkTesting">
+      <class name="Mavenprjct.Finanace.ManyLink">
         <methods>
-          <include name="setup"/>
-          <include name="killProcess"/>
-          <include name="linkTesting"/>
+          <include name="endProcess"/>
+          <include name="singleLink"/>
+          <include name="startProcess"/>
         </methods>
-      </class> <!-- Mavenprjct.Finanace.LinkTesting -->
+      </class> <!-- Mavenprjct.Finanace.ManyLink -->
+      <class name="Mavenprjct.Finanace.TC001_LoginPage">
+        <methods>
+          <include name="customerLogin"/>
+          <include name="setUp"/>
+          <include name="killProcess"/>
+        </methods>
+      </class> <!-- Mavenprjct.Finanace.TC001_LoginPage -->
     </classes>
   </test> <!-- chrome Test(failed) -->
-  <test thread-count="5" name="firefox Test(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="Mavenprjct.Finanace.LinkTesting">
-        <methods>
-          <include name="setup"/>
-          <include name="killProcess"/>
-          <include name="linkTesting"/>
-        </methods>
-      </class> <!-- Mavenprjct.Finanace.LinkTesting -->
-    </classes>
-  </test> <!-- firefox Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
