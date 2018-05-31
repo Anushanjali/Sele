@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="chrome Test(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Mavenprjct.Finanace.ManyLink">
+      <class name="Mavenprjct.Finanace.dropDown">
         <methods>
-          <include name="endProcess"/>
-          <include name="singleLink"/>
+          <include name="afterClass"/>
           <include name="startProcess"/>
+          <include name="toPrintallOptionsInDropDown"/>
         </methods>
-      </class> <!-- Mavenprjct.Finanace.ManyLink -->
-      <class name="Mavenprjct.Finanace.TC001_LoginPage">
-        <methods>
-          <include name="customerLogin"/>
-          <include name="setUp"/>
-          <include name="killProcess"/>
-        </methods>
-      </class> <!-- Mavenprjct.Finanace.TC001_LoginPage -->
+      </class> <!-- Mavenprjct.Finanace.dropDown -->
     </classes>
-  </test> <!-- chrome Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

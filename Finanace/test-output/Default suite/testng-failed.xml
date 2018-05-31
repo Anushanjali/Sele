@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Mavenprjct.Finanace.TC001_LoginPage">
+      <class name="Mavenprjct.Finanace.dropDown">
         <methods>
-          <include name="customerLogin"/>
-          <include name="setUp"/>
-          <include name="killProcess"/>
+          <include name="afterClass"/>
+          <include name="startProcess"/>
+          <include name="toPrintallOptionsInDropDown"/>
         </methods>
-      </class> <!-- Mavenprjct.Finanace.TC001_LoginPage -->
+      </class> <!-- Mavenprjct.Finanace.dropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

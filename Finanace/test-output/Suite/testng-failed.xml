@@ -4,20 +4,13 @@
   <test thread-count="5" name="chrome Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Mavenprjct.Finanace.ManyLink">
+      <class name="Mavenprjct.Finanace.dropDown">
         <methods>
-          <include name="endProcess"/>
-          <include name="singleLink"/>
+          <include name="allLink"/>
+          <include name="afterClass"/>
           <include name="startProcess"/>
         </methods>
-      </class> <!-- Mavenprjct.Finanace.ManyLink -->
-      <class name="Mavenprjct.Finanace.TC001_LoginPage">
-        <methods>
-          <include name="customerLogin"/>
-          <include name="setUp"/>
-          <include name="killProcess"/>
-        </methods>
-      </class> <!-- Mavenprjct.Finanace.TC001_LoginPage -->
+      </class> <!-- Mavenprjct.Finanace.dropDown -->
     </classes>
   </test> <!-- chrome Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

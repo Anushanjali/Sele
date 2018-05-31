@@ -6,7 +6,7 @@
   <parameter name="browser" value="chrome"></parameter>
     <classes>
       
-      <class name="Mavenprjct.Finanace.ManyLink"/>
+      <class name="Mavenprjct.Finanace.dropDown"/>
     </classes>
   </test> <!-- Test -->
  

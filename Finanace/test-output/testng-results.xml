@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="40620" started-at="2018-05-18T05:56:13Z" finished-at="2018-05-18T05:56:54Z">
+  <suite name="Suite" duration-ms="37641" started-at="2018-05-19T08:11:34Z" finished-at="2018-05-19T08:12:11Z">
     <groups>
     </groups>
-    <test name="chrome Test" duration-ms="40620" started-at="2018-05-18T05:56:13Z" finished-at="2018-05-18T05:56:54Z">
-      <class name="Mavenprjct.Finanace.ManyLink">
-        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:Mavenprjct.Finanace.ManyLink@670b40af]" name="startProcess" is-config="true" duration-ms="40584" started-at="2018-05-18T05:56:13Z" finished-at="2018-05-18T05:56:54Z">
+    <test name="chrome Test" duration-ms="37641" started-at="2018-05-19T08:11:34Z" finished-at="2018-05-19T08:12:11Z">
+      <class name="Mavenprjct.Finanace.dropDown">
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:Mavenprjct.Finanace.dropDown@670b40af]" name="startProcess" is-config="true" duration-ms="36142" started-at="2018-05-19T08:11:34Z" finished-at="2018-05-19T08:12:10Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startProcess -->
-        <test-method status="PASS" signature="singleLink()[pri:0, instance:Mavenprjct.Finanace.ManyLink@670b40af]" name="singleLink" duration-ms="7" started-at="2018-05-18T05:56:54Z" finished-at="2018-05-18T05:56:54Z">
+        <test-method status="PASS" signature="toPrintallOptionsInDropDown()[pri:0, instance:Mavenprjct.Finanace.dropDown@670b40af]" name="toPrintallOptionsInDropDown" duration-ms="1467" started-at="2018-05-19T08:12:10Z" finished-at="2018-05-19T08:12:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- singleLink -->
-        <test-method status="PASS" signature="endProcess()[pri:0, instance:Mavenprjct.Finanace.ManyLink@670b40af]" name="endProcess" is-config="true" duration-ms="1" started-at="2018-05-18T05:56:54Z" finished-at="2018-05-18T05:56:54Z">
+        </test-method> <!-- toPrintallOptionsInDropDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Mavenprjct.Finanace.dropDown@670b40af]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-05-19T08:12:11Z" finished-at="2018-05-19T08:12:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endProcess -->
-      </class> <!-- Mavenprjct.Finanace.ManyLink -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- Mavenprjct.Finanace.dropDown -->
     </test> <!-- chrome Test -->
   </suite> <!-- Suite -->
 </testng-results>
